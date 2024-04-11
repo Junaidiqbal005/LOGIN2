@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.px-4{
+  padding-left: 4px;
+  padding-right: 4px;
+  
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-color: black;
+}
+.container{
+    border: 2px solid blue;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+}
+h1{
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.user-input{
+    padding: 21px;
+    margin: 20px;
+    border-bottom: 2px solid rgb(192, 190, 190);
+    width: 250px;
+    height: 5px;
+    position: relative;
+    top: 25px;
+    left: 40px;
+}
+.user-input .input1{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding-left: 8px;
+    width: 280px;
+    height: 30px;
+    background: none;
+    border: none;
+    outline: none;
+}
+.user-input .label1{
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+.user-input .img1{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+.user-password{
+    padding: 21px;
+    margin: 15px;
+    border-bottom: 2px solid rgb(185, 184, 184);
+    width: 250px;
+    height: 5px;
+    position: relative;
+    top: 20px;
+    left: 40px;   
+}
+.user-password .password{
+    padding-left: 8px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 280px;
+    height: 30px;
+    background: none;
+    border: none;
+    outline: none;
+}
+.user-password .label2{
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+.user-password .img2{
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+.div3 h4{
+    padding: 10px;
+    margin: 0px;
+    text-align: right;
+    padding-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.63);
+    
+}
+.div3 .btn{
+    padding: 10px;
+    margin: 20px;
+    width: 290px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: linear-gradient(
+        to right,
+        rgba(2, 180, 250, 0.774),
+        rgb(230, 13, 147)
+    );
+}
+
+.div4{
+    padding: 20px;
+    margin: 15;
+}
+.div4 p{
+    padding: 10px;
+    margin: 10px;
+}
+.div4 .img4{
+    border-radius: 100%;
+}
+
+.div5{
+    padding: 15px;
+    margin: 15px;
+    color: rgba(0, 0, 0, 0.603);
+}
+.div5 span{
+    padding: 2px;
+    display: block;
+    /* font-size: 15px; */
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.781);
+}
+.photo img{
+    padding: 4px;
+}
